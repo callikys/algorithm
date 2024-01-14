@@ -20,7 +20,7 @@ public class Main {
             int num = Integer.parseInt(stz.nextToken());
             if(card.get(num) == null) {
                 sb.append(0).append(" ");
-            } else sb.append(card.get(num)).append(" ");
+            } else sb.append(1).append(" ");
         }
         System.out.println(sb);
     }
